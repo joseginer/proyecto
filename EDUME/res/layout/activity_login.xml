@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/libro4" >
+
+    <LinearLayout
+        android:layout_width="718dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dip"
+            android:text="Bienvenido, ¿Quién eres?"
+            android:textColorHint="@android:color/black"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColorHint="@android:color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+      
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Password"
+            android:textColorHint="@android:color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+       
+
+        <TextView android:id="@+id/login_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+      
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dip"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Probar sin logear" />
+    
+    </LinearLayout>
+
+</ScrollView>

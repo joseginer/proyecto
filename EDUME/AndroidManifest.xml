@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edume"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.edume.Login"
+            android:label="@string/app_name" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.edume.Principal"
+            android:label="@string/title_activity_principal" android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="ejermates.ContaGlobos"
+            android:label="@string/title_activity_conta_globos" android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="materias.Mates"
+            android:label="@string/title_activity_mates" android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="materias.Lengua"
+            android:label="@string/title_activity_lengua" android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>
